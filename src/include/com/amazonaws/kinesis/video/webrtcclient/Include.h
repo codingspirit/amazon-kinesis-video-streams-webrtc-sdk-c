@@ -609,7 +609,7 @@ extern "C" {
 /**
  * Parameterized string for KVS STUN Server
  */
-#define KINESIS_VIDEO_STUN_URL "stun:stun.kinesisvideo.%s.amazonaws.com:443"
+#define KINESIS_VIDEO_STUN_URL "stun:stun.kinesisvideo.%s.amazonaws.com%s:443"
 
 /**
  * Default signaling SSL port

@@ -332,7 +332,8 @@ STATUS initializePeerConnection(PSampleConfiguration pSampleConfiguration, PRtcP
     configuration.iceTransportPolicy = ICE_TRANSPORT_POLICY_ALL;
 
     // Set the  STUN server
-    SNPRINTF(configuration.iceServers[0].urls, MAX_ICE_CONFIG_URI_LEN, KINESIS_VIDEO_STUN_URL, pSampleConfiguration->channelInfo.pRegion);
+    SNPRINTF(configuration.iceServers[0].urls, MAX_ICE_CONFIG_URI_LEN, KINESIS_VIDEO_STUN_URL,
+        pSampleConfiguration->channelInfo.pRegion, strstr(pSampleConfiguration->channelInfo.pRegion, "cn-") ? ".cn" : "");
 
     if (pSampleConfiguration->useTurn) {
         // Set the URIs from the configuration

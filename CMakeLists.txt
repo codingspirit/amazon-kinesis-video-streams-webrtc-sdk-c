@@ -18,6 +18,7 @@ option(BUILD_LIBSRTP_DESTINATION_PLATFORM "If buildng LibSRTP what is the destin
 option(BUILD_SAMPLE "Build available samples" ON)
 option(ENABLE_DATA_CHANNEL "Enable support for data channel" ON)
 option(INSTRUMENTED_ALLOCATORS "Enable memory instrumentation" OFF)
+option(USE_1080P_SAMPLES "Use 1080p samples" OFF)
 
 # Developer Flags
 option(BUILD_TEST "Build the testing tree." OFF)
@@ -246,6 +247,10 @@ endif()
 
 if (ENABLE_DATA_CHANNEL)
   add_definitions(-DENABLE_DATA_CHANNEL)
+endif()
+
+if (USE_1080P_SAMPLES)
+  add_definitions(-DUSE_1080P_SAMPLES)
 endif()
 
 if (INSTRUMENTED_ALLOCATORS)

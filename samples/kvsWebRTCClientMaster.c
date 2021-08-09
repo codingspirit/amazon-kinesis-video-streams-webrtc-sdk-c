@@ -211,7 +211,11 @@ PVOID sendVideoPackets(PVOID args)
 
     while (!ATOMIC_LOAD_BOOL(&pSampleConfiguration->appTerminateFlag)) {
         fileIndex = fileIndex % NUMBER_OF_H264_FRAME_FILES + 1;
+#ifdef USE_1080P_SAMPLES
+        snprintf(filePath, MAX_PATH_LEN, "./h264SampleFrames1080p/frame-%04d.h264", fileIndex);
+#else
         snprintf(filePath, MAX_PATH_LEN, "./h264SampleFrames/frame-%04d.h264", fileIndex);
+#endif
 
         retStatus = readFrameFromDisk(NULL, &frameSize, filePath);
         if (retStatus != STATUS_SUCCESS) {

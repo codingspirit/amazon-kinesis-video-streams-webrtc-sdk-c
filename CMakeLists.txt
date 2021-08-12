@@ -130,7 +130,10 @@ if(BUILD_DEPENDENCIES)
   )
   build_dependency(srtp ${BUILD_ARGS})
 
-  build_dependency(usrsctp)
+  if(ENABLE_DATA_CHANNEL)
+    build_dependency(usrsctp)
+  endif()
+
   if(BUILD_TEST)
     build_dependency(gtest)
   endif()
@@ -188,10 +191,12 @@ else()
 endif()
 
 # usrsctp dont support pkgconfig yet
-find_library(
-  Usrsctp
-  NAMES ${USRSCTP_LIBNAME} usrsctp REQUIRED
-  PATHS ${OPEN_SRC_INSTALL_PREFIX}/lib)
+if(ENABLE_DATA_CHANNEL)
+  find_library(
+    Usrsctp
+    NAMES ${USRSCTP_LIBNAME} usrsctp REQUIRED
+    PATHS ${OPEN_SRC_INSTALL_PREFIX}/lib)
+endif()
 
 set(OPEN_SRC_INCLUDE_DIRS ${OPEN_SRC_INCLUDE_DIRS} ${LIBSRTP_INCLUDE_DIRS}
                           ${CURL_INCLUDE_DIRS} ${LIBWEBSOCKETS_INCLUDE_DIRS})
@@ -259,8 +264,16 @@ file(
   "src/source/Sdp/*.c"
   "src/source/Srtp/*.c"
   "src/source/Stun/*.c"
-  "src/source/Sctp/*.c"
   "src/source/Metrics/*.c")
+
+if(ENABLE_DATA_CHANNEL)
+  file(
+    GLOB
+    WEBRTC_CLIENT_SCTP_SOURCE_FILES
+    "src/source/Sctp/*.c"
+  )
+  list(APPEND WEBRTC_CLIENT_SOURCE_FILES ${WEBRTC_CLIENT_SCTP_SOURCE_FILES})
+endif()
 
 if (USE_OPENSSL)
   list(FILTER WEBRTC_CLIENT_SOURCE_FILES EXCLUDE REGEX ".*_mbedtls\\.c")

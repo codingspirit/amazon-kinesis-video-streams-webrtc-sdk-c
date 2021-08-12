@@ -50,7 +50,9 @@ extern "C" {
 // If removed will cause corruption that is hard to determine at runtime
 #define INET  1
 #define INET6 1
+#ifdef ENABLE_DATA_CHANNEL
 #include <usrsctp.h>
+#endif
 
 #include <libwebsockets.h>
 
@@ -133,7 +135,9 @@ STATUS generateJSONSafeString(PCHAR, UINT32);
 #include "Ice/IceAgentStateMachine.h"
 #include "Ice/NatBehaviorDiscovery.h"
 #include "Srtp/SrtpSession.h"
+#ifdef ENABLE_DATA_CHANNEL
 #include "Sctp/Sctp.h"
+#endif
 #include "Rtp/RtpPacket.h"
 #include "Rtcp/RtcpPacket.h"
 #include "Rtcp/RollingBuffer.h"

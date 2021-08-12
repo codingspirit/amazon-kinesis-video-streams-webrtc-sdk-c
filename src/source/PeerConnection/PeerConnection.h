@@ -73,7 +73,9 @@ typedef struct {
     MUTEX pSrtpSessionLock;
     PSrtpSession pSrtpSession;
 
+#ifdef ENABLE_DATA_CHANNEL
     PSctpSession pSctpSession;
+#endif
 
     SessionDescription remoteSessionDescription;
     PDoubleList pTransceivers;

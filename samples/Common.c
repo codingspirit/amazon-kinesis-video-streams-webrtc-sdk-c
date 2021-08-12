@@ -12,6 +12,7 @@ VOID sigintHandler(INT32 sigNum)
     }
 }
 
+#ifdef ENABLE_DATA_CHANNEL
 VOID onDataChannelMessage(UINT64 customData, PRtcDataChannel pDataChannel, BOOL isBinary, PBYTE pMessage, UINT32 pMessageLen)
 {
     UNUSED_PARAM(customData);
@@ -34,6 +35,7 @@ VOID onDataChannel(UINT64 customData, PRtcDataChannel pRtcDataChannel)
     DLOGI("New DataChannel has been opened %s \n", pRtcDataChannel->name);
     dataChannelOnMessage(pRtcDataChannel, customData, onDataChannelMessage);
 }
+#endif
 
 VOID onConnectionStateChange(UINT64 customData, RTC_PEER_CONNECTION_STATE newState)
 {

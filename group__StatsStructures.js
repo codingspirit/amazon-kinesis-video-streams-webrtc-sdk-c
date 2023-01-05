@@ -1,35 +1,35 @@
 var group__StatsStructures =
 [
     [ "RtcIceMetrics", "structRtcIceMetrics.html", [
-      [ "localRtcIceCandidateStats", "structRtcIceMetrics.html#a68e096213b6c4dd37b46b9a1aa484c02", null ],
-      [ "remoteRtcIceCandidateStats", "structRtcIceMetrics.html#afcb5243008cc0bf27f18df01e0a6ae6c", null ],
-      [ "rtcIceCandidatePairStats", "structRtcIceMetrics.html#a5427abf5f6370d371acb461a1bd36061", null ],
-      [ "rtcIceServerStats", "structRtcIceMetrics.html#a1447ae2dbefa78ca1af68b91d0e5e20c", null ],
-      [ "version", "structRtcIceMetrics.html#aee368f82e38baffef4a1e71d55ef1e8b", null ]
+      [ "localRtcIceCandidateStats", "group__StatusCodes.html#ga68e096213b6c4dd37b46b9a1aa484c02", null ],
+      [ "remoteRtcIceCandidateStats", "group__StatusCodes.html#gafcb5243008cc0bf27f18df01e0a6ae6c", null ],
+      [ "rtcIceCandidatePairStats", "group__StatusCodes.html#ga5427abf5f6370d371acb461a1bd36061", null ],
+      [ "rtcIceServerStats", "group__StatusCodes.html#ga1447ae2dbefa78ca1af68b91d0e5e20c", null ],
+      [ "version", "group__StatusCodes.html#gaee368f82e38baffef4a1e71d55ef1e8b", null ]
     ] ],
     [ "RtcStreamMetrics", "structRtcStreamMetrics.html", [
-      [ "rtcInboundStats", "structRtcStreamMetrics.html#a3388b9bb359bf647efc46477e06a642a", null ],
-      [ "rtcOutboundStats", "structRtcStreamMetrics.html#a815801a211ca3fbdf1e70821ab808b2a", null ],
-      [ "rtcTransportStats", "structRtcStreamMetrics.html#a548602a96a63f8e28fd2046860304f5c", null ],
-      [ "version", "structRtcStreamMetrics.html#aa4d86ac72d03331f4b926c374b44e9ac", null ]
+      [ "rtcInboundStats", "group__StatusCodes.html#ga3388b9bb359bf647efc46477e06a642a", null ],
+      [ "rtcOutboundStats", "group__StatusCodes.html#ga815801a211ca3fbdf1e70821ab808b2a", null ],
+      [ "rtcTransportStats", "group__StatusCodes.html#ga548602a96a63f8e28fd2046860304f5c", null ],
+      [ "version", "group__StatusCodes.html#gaa4d86ac72d03331f4b926c374b44e9ac", null ]
     ] ],
     [ "SignalingClientMetrics", "structSignalingClientMetrics.html", [
-      [ "signalingClientStats", "structSignalingClientMetrics.html#a19e455ef17680d69fc2de9f0c886ea80", null ],
-      [ "version", "structSignalingClientMetrics.html#a9ff5ba01b5b62d3996d2828763ec4a0d", null ]
+      [ "signalingClientStats", "group__StatusCodes.html#ga19e455ef17680d69fc2de9f0c886ea80", null ],
+      [ "version", "group__StatusCodes.html#ga9ff5ba01b5b62d3996d2828763ec4a0d", null ]
     ] ],
     [ "RtcStats", "structRtcStats.html", [
-      [ "requestedTypeOfStats", "structRtcStats.html#ab177e7034390e789397933b107eea948", null ],
-      [ "rtcStatsObject", "structRtcStats.html#afc691e43b541bf7ac94abda8fdcd5892", null ],
-      [ "timestamp", "structRtcStats.html#ae25b60fade54e068edd20998cbcfdaf0", null ]
+      [ "requestedTypeOfStats", "group__StatusCodes.html#gab177e7034390e789397933b107eea948", null ],
+      [ "rtcStatsObject", "group__StatusCodes.html#gafc691e43b541bf7ac94abda8fdcd5892", null ],
+      [ "timestamp", "group__StatusCodes.html#gae25b60fade54e068edd20998cbcfdaf0", null ]
     ] ],
     [ "RtcEncoderStats", "structRtcEncoderStats.html", [
-      [ "bitDepth", "structRtcEncoderStats.html#a859b192a816c50a947d41d300965a748", null ],
-      [ "encoderImplementation", "structRtcEncoderStats.html#afe331e59fcd4b4d5b4135608f33241b7", null ],
-      [ "encodeTimeMsec", "structRtcEncoderStats.html#aaeaf0d1f1645efb1610c23a20418880e", null ],
-      [ "height", "structRtcEncoderStats.html#aef97890f2c53b6681a8f535f1003d7e3", null ],
-      [ "targetBitrate", "structRtcEncoderStats.html#ad11ecd66ec37019b36d16ba5af614a78", null ],
-      [ "voiceActivity", "structRtcEncoderStats.html#aad2b456926b4ca8616953ecfd80e6cf3", null ],
-      [ "width", "structRtcEncoderStats.html#a9750be60f7b4746198aaea8d07a19e16", null ]
+      [ "bitDepth", "group__StatusCodes.html#ga859b192a816c50a947d41d300965a748", null ],
+      [ "encoderImplementation", "group__StatusCodes.html#gafe331e59fcd4b4d5b4135608f33241b7", null ],
+      [ "encodeTimeMsec", "group__StatusCodes.html#gaaeaf0d1f1645efb1610c23a20418880e", null ],
+      [ "height", "group__StatusCodes.html#gaef97890f2c53b6681a8f535f1003d7e3", null ],
+      [ "targetBitrate", "group__StatusCodes.html#gad11ecd66ec37019b36d16ba5af614a78", null ],
+      [ "voiceActivity", "group__StatusCodes.html#gaad2b456926b4ca8616953ecfd80e6cf3", null ],
+      [ "width", "group__StatusCodes.html#ga9750be60f7b4746198aaea8d07a19e16", null ]
     ] ],
     [ "QualityLimitationDurationsRecord", "structQualityLimitationDurationsRecord.html", [
       [ "durationInSeconds", "structQualityLimitationDurationsRecord.html#a2d6d9cae52d381f5dd879dd4fc2b0b36", null ],
@@ -239,6 +239,7 @@ var group__StatsStructures =
       [ "transportId", "structRtcDataChannelStats.html#a8def150a423033b6d77697d0a6b32d48", null ]
     ] ],
     [ "SignalingClientStats", "structSignalingClientStats.html", [
+      [ "apiCallRetryCount", "structSignalingClientStats.html#a95a513a223371b29c540983fd3ecaf04", null ],
       [ "connectionDuration", "structSignalingClientStats.html#a11d655b6febcfa1b84596b769248d086", null ],
       [ "cpApiCallLatency", "structSignalingClientStats.html#a6dc71a2165fa2c15cd1ab1391337d932", null ],
       [ "dpApiCallLatency", "structSignalingClientStats.html#a00f3d2b3ea61ddc1353a4a7d5ed6084a", null ],
@@ -262,7 +263,7 @@ var group__StatsStructures =
       [ "transportStats", "structRtcStatsObject.html#aeda2b94e27f89786810339e7342e0827", null ]
     ] ],
     [ "PDscpPacketsSentRecord", "group__StatsStructures.html#ga7540403bae7393d7da52dcc72e3cc847", null ],
-    [ "PQualityLimitationDurationsRecord", "group__StatsStructures.html#ga5272c41dca467a46b89b9aec4d004122", null ],
+    [ "PQualityLimitationDurationsRecord", "group__StatsStructures.html#ga5a5117e57ea0a264eac97ed99d875139", null ],
     [ "PRtcDataChannelStats", "group__StatsStructures.html#gad50fadcf7938259a9cdf1e03c73e87d8", null ],
     [ "PRtcEncoderStats", "group__StatsStructures.html#ga8927731e3a97833866d3a5ecb00a3460", null ],
     [ "PRtcIceCandidatePairStats", "group__StatsStructures.html#gad5c2bddb835a03760d18a36fc0909a9d", null ],

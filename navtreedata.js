@@ -33,8 +33,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "group__Callbacks.html",
-"group__PublicStructures.html#gad5b87b382de979a22ec7096376b5f9bb",
-"structNullableDouble.html",
+"group__PublicMemberFunctions.html",
+"group__StatusCodes.html#ga02c3030e0e011ae7a1ef1a77003fa048",
+"group__StatusCodes.html#gafe331e59fcd4b4d5b4135608f33241b7",
 "structRtcRemoteInboundRtpStreamStats.html#a07fec5b68715a29e0456e70ed5b12037"
 ];
 

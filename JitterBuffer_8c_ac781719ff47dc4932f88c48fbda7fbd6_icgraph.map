@@ -1,0 +1,13 @@
+<map id="jitterBufferInternalParse" name="jitterBufferInternalParse">
+<area shape="rect" id="node1" title=" " alt="" coords="856,160,1033,187"/>
+<area shape="rect" id="node2" href="$JitterBuffer_8c.html#ab3cc6b54249b9d82ce116edccc2d1cbf" title=" " alt="" coords="687,84,806,111"/>
+<area shape="rect" id="node9" href="$JitterBuffer_8c.html#a3698c62de5f63baf09c350078af5301c" title=" " alt="" coords="685,186,808,212"/>
+<area shape="rect" id="node3" href="$group__PublicMemberFunctions.html#ga5b89dc2e301e35f30330c57bc1361dcb" title="Create a new RtcRtpTransceiver and add it to the set of transceivers." alt="" coords="28,56,148,83"/>
+<area shape="rect" id="node4" href="$JitterBuffer_8c.html#a5675dd12bea8eaa59c74680a942d6cab" title=" " alt="" coords="477,40,610,67"/>
+<area shape="rect" id="node5" href="$Rtp_8c.html#ac43cec8875bbd05633d9a31bff472efc" title=" " alt="" coords="459,110,627,136"/>
+<area shape="rect" id="node6" href="$Rtp_8c.html#a546a0453948ee8060791e725b0194ca5" title=" " alt="" coords="219,132,401,159"/>
+<area shape="rect" id="node7" href="$group__PublicMemberFunctions.html#ga433b1bd125e7f221bcdad97a2a0e8949" title="Free a RtcPeerConnection." alt="" coords="235,183,385,210"/>
+<area shape="rect" id="node8" href="$group__PublicMemberFunctions.html#gada972c66438c7e7c82e1db0cfe2b2640" title="Initialize a RtcPeerConnection with the provided Configuration." alt="" coords="5,208,171,235"/>
+<area shape="rect" id="node10" href="$PeerConnection_8c.html#ac7dfeca3237caae871b6cd2e0e50c73e" title=" " alt="" coords="449,196,637,223"/>
+<area shape="rect" id="node11" href="$PeerConnection_8c.html#a76ad72a51a47dae5e9f43873f36aa34a" title=" " alt="" coords="244,234,376,260"/>
+</map>
